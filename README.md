@@ -1,8 +1,8 @@
-**Northwind + PostgreSQL + Elasticsearch + Logstash + Kibana + C# API**
+##Northwind + PostgreSQL + Elasticsearch + Logstash + Kibana + C# API
 
 This project sets up a PostgreSQL Northwind database, pushes its data into Elasticsearch via Logstash, and allows visualization through Kibana. A C# API project is also included to interact with the PostgreSQL database.
 
-**🚀 Services**
+##🚀 Services
 
 **PostgreSQL**
 
@@ -51,7 +51,7 @@ Works seamlessly with the PostgreSQL container defined in Docker Compose.
 └── MyApi/ # C# Web API project
 
 
-**🔧 Setup and Run**
+##🔧 Setup and Run
 
 Clone the repository
 
@@ -81,7 +81,7 @@ Use the following connection string:
 
 Host=localhost;Port=5433;Database=northwind;Username=postgres;Password=1
 
-**🔗 Endpoints**
+##🔗 Endpoints
 
 PostgreSQL → localhost:5433
 
@@ -89,7 +89,7 @@ Elasticsearch → http://localhost:9200
 
 Kibana → http://localhost:5601
 
-**⚙️ Notes**
+##⚙️ Notes
 
 PostgreSQL runs initialization scripts from Elasticsearch.API/initdb on first startup.
 
