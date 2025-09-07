@@ -40,15 +40,14 @@ Works seamlessly with the PostgreSQL container defined in Docker Compose.
 
 ## 📂 Project Structure
 
-**.
-├── docker-compose.yml
-├── Elasticsearch.API/
-│ ├── initdb/ # PostgreSQL init scripts
-│ └── logstash/
-│ ├── pipeline/ # Logstash pipeline configs
-│ └── drivers/ # PostgreSQL JDBC driver
-└── src/
-└── MyApi/ # C# Web API project**
+- docker-compose.yml
+- Elasticsearch.API/
+  - initdb/                  <!-- PostgreSQL init scripts -->
+  - logstash/
+    - pipeline/              <!-- Logstash pipeline configs -->
+    - drivers/               <!-- PostgreSQL JDBC driver -->
+- src/
+  - MyApi/                   <!-- C# Web API project -->
 
 
 **🔧 Setup and Run**
