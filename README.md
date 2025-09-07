@@ -38,17 +38,18 @@ Connects to PostgreSQL to perform CRUD operations on the Northwind database.
 
 Works seamlessly with the PostgreSQL container defined in Docker Compose.
 
-**📂 Project Structure**
+## 📂 Project Structure
 
 .
 ├── docker-compose.yml
 ├── Elasticsearch.API/
-│   ├── initdb/               # PostgreSQL init scripts
-│   └── logstash/
-│       ├── pipeline/         # Logstash pipeline configs
-│       └── drivers/          # PostgreSQL JDBC driver
+│ ├── initdb/ # PostgreSQL init scripts
+│ └── logstash/
+│ ├── pipeline/ # Logstash pipeline configs
+│ └── drivers/ # PostgreSQL JDBC driver
 └── src/
-    └── MyApi/                # C# Web API project
+└── MyApi/ # C# Web API project
+
 
 **🔧 Setup and Run**
 
